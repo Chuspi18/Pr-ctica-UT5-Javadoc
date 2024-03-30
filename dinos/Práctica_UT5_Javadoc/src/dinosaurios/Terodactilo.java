@@ -32,4 +32,10 @@ public class Terodactilo {
 	public void emitirSonido() {
 		System.out.println("¡Aaahhhhhhh!");
 	}
+	 /*Realiza un ataque aéreo.*/
+    public boolean ataqueAereo(String objetivo) {
+        System.out.println("El terodáctilo está atacando a " + objetivo + " desde el aire.");
+        // Lógica del ataque
+        return true; // Supongamos que siempre es exitoso 
+    }
 }
