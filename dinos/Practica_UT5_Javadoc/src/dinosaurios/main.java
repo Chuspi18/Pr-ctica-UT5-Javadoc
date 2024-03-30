@@ -1,6 +1,20 @@
+
 package dinosaurios;
 
+/**
+ * Esta es clase principal del proyecto Dinosaurios.
+ * Esta clase contiene el método main para ejecutar el proyecto.
+ * 
+ * @author bjjnr
+ * @version 1.0.0
+ */
 public class main {
+
+    /**
+     * El método principal que inicia la ejecución del programa.
+     * 
+     * @param args He creado dinosaurios para probar.
+     */
     public static void main(String[] args) {
         // Crear un dinosaurio
         dinosaurio dinosaurio = new dinosaurio("T-Rex", 20);
@@ -43,3 +57,4 @@ public class main {
         }
     }
 }
+
